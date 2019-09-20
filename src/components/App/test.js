@@ -34,7 +34,7 @@ describe('Search', () => {
 
   it('has a valid snapshot', () => {
     const component = renderer.create(
-      <Search>Search</Search>
+      <Search>Search dfsddd</Search>
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();

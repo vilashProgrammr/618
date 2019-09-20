@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 class Search extends Component {
-
+wsw
     componentDidMount(){
         if(this.input){
             this.input.focus(); //focusing the search bar using refs
@@ -26,7 +26,7 @@ class Search extends Component {
                 ref={(node) => { this.input = node }}
             />
             <button type="submit" >
-                {children}
+                dssad
             </button>
         </form>
         )
